@@ -1,0 +1,22 @@
+Welcome to New Relic!
+
+For installation instructions, please log in to http://rpm.newrelic.com/ and click on the Mobile Phone icon in the left navigation. If you do not see navigation on the left side, click the Account Settings link in the upper right of the page.
+
+If you have not created a Mobile Application:
+* click "Add a new mobile app",
+* name your application, and
+* download the New Relic agent for your platform and follow the instructions.
+
+If you have previously created a Mobile Application:
+* click the name of your mobile app,
+* choose Install from the Settings tab on the top of the screen, and
+* download the New Relic agent for your platform and follow the instructions.
+
+RELEASE NOTES
+
+Version 1, March 14 2013
+* Happy Pi Day!
+* Welcome to New Relic for Mobile Apps, we're glad to have you aboard.
+
+
+Copyright ©2013 New Relic, Inc. All Rights Reserved.

@@ -1,0 +1,44 @@
+<?xml version='1.0'?>
+<signatures version='1.0'>
+<enum name='NRLogLevelALL' value='65535'/>
+<enum name='NRLogLevelError' value='1'/>
+<enum name='NRLogLevelInfo' value='4'/>
+<enum name='NRLogLevelNone' value='0'/>
+<enum name='NRLogLevelVerbose' value='8'/>
+<enum name='NRLogLevelWarning' value='2'/>
+<enum name='NRLogTargetALL' value='65535'/>
+<enum name='NRLogTargetConsole' value='1'/>
+<enum name='NRLogTargetFile' value='2'/>
+<enum name='NRLogTargetNone' value='0'/>
+<class name='NRLogger'>
+<method class_method='true' selector='clearLog'>
+<retval type='v' declared_type='void'/>
+</method>
+<method class_method='true' selector='logFilePath'>
+<retval type='@' declared_type='NSString*'/>
+</method>
+<method class_method='true' selector='setLogLevels:'>
+<arg type='I' index='0' name='levels' declared_type='NSUInteger'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method class_method='true' selector='setLogTargets:'>
+<arg type='I' index='0' name='targets' declared_type='NSUInteger'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+<class name='NewRelicAgent'>
+<method class_method='true' selector='setDeviceLocation:'>
+<arg type='@' index='0' name='location' declared_type='CLLocation*'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method class_method='true' selector='startWithApplicationToken:'>
+<arg type='@' index='0' name='appToken' declared_type='NSString*'/>
+<retval type='v' declared_type='void'/>
+</method>
+<method class_method='true' selector='startWithApplicationToken:withoutSecurity:'>
+<arg type='@' index='0' name='appToken' declared_type='NSString*'/>
+<arg type='B' index='1' name='disableSSL' declared_type='BOOL'/>
+<retval type='v' declared_type='void'/>
+</method>
+</class>
+</signatures>
